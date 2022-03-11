@@ -1,0 +1,17 @@
+.Detail {
+    margin-top: 20px;
+}
+
+.Detail > table {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.Detail img {
+    width: 250px;
+    padding: 20px;
+}
+
+.Detail td {
+    padding: 10px;
+}
