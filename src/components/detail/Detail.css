@@ -1,17 +1,61 @@
+@font-face {
+    font-family: "poki";
+    src: url("orangekid.ttf");
+}
+
+table {
+font-family: Arial;
+border-collapse: collapse;
+width: 100%;
+border: 3px solid #282c34;
+}
+
+td, th {
+border: 2px solid #ddd;
+padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+
+th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: rgb(220, 0, 0);
+color: white;
+}
+  
 .Detail {
-    margin-top: 20px;
+    margin-top: 45px;
+    margin-bottom: 20px;
 }
 
 .Detail > table {
     margin: 0 auto;
-    width: 70%;
+    width: 50%;
 }
 
 .Detail img {
-    width: 250px;
+    width: 220px;
     padding: 20px;
+    align-items: center;
 }
 
 .Detail td {
     padding: 10px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-family: poki;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.fotopoke{
+    width: 50%;
+    vertical-align: center;
+    text-align: center;
 }

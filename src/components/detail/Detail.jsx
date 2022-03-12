@@ -31,9 +31,9 @@ export default function Detail() {
         ? <PokemonNotFound />
         : (
           <div className="Detail">
-            <table border="1">
+            <table>
               <thead>
-                <tr><th colSpan="2"><h1>{name}</h1></th></tr>
+                <tr><th colSpan="2"><h2>{name}</h2></th></tr>
               </thead>
               <tbody>
                 <tr><td rowSpan="4" className="fotopoke"><img src={getPokemonImage(name)} alt={name} /></td></tr>
@@ -41,6 +41,7 @@ export default function Detail() {
                   <td>
                     <b>Peso: </b>
                     {weight}
+                    kg
                   </td>
                 </tr>
                 <tr>

@@ -17,6 +17,11 @@ export default function App() {
     });
   };
 
+  const clearFilter = () => {
+    getPokemonList().then((response) => {
+      setPokemonList(response.results);
+    });
+  };
   // useEffect es un hook de React para hacer operaciones antes de renderizar el componente
   useEffect(() => {
     getPokemonList().then((response) => {
@@ -37,11 +42,16 @@ export default function App() {
     <div className="App">
       <SearchBox
         className="SearchBox"
-        placeholder="Search Pokemon"
+        placeholder="Buscar Pokemon"
         onSearchChange={(event) => setSearch(event.target.value)}
+        clearList={() => {
+          clearFilter();
+          setSearch('');
+        }}
+        searchValue={search}
       />
 
-      <div>
+      <div className="buttonClass">
         {types && types.map((type) => (
           <button className={`button-type button-type-${type.name}`} type="button" key={type.name} onClick={() => getByType(type.url)}>{type.name}</button>))}
       </div>

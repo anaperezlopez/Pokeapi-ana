@@ -4,3 +4,12 @@
     margin: 30px 0px;
     width: 400px;
 }
+
+.clearButton{
+  margin: 10px 20px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  
+}
