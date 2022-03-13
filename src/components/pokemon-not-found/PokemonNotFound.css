@@ -1,0 +1,11 @@
+.notFound__logo {
+    width: 15%;
+    margin-top: 40px;
+}
+
+.notFound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

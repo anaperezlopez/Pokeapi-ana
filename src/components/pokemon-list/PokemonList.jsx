@@ -7,7 +7,7 @@ export default function PokemonList({ pokemons }) {
   return (
     <div className="PokemonList">
       {!pokemons.length && (
-        <h4>No Pokemon</h4>
+        <h4>No existe este Pokemon</h4>
       )}
       {pokemons.map(({ name }) => (
         <PokemonCard className="PokemonList__card" key={name} name={name} />

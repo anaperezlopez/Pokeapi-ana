@@ -1,5 +1,5 @@
 .PokemonList__card {
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
   width: 200px;
   height: 200px;
   transition: 0.3s;
@@ -14,7 +14,7 @@
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   transition: transform 0.75s;
-  box-shadow: 0px 0px 25px rgba(255, 0, 0, 0.75);
+  box-shadow: 0px 0px 25px rgba(223, 0, 0, 0.829);
 }
 
 .PokemonList__card img {
