@@ -10,7 +10,7 @@ export default function PokemonList({ pokemons }) {
         <h4>No Pokemon</h4>
       )}
       {pokemons.map(({ name }) => (
-        <PokemonCard key={name} name={name} />
+        <PokemonCard className="PokemonList__card" key={name} name={name} />
       ))}
     </div>
   );

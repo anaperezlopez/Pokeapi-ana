@@ -1,3 +1,17 @@
+# POKEDITO
+
+Para iniciar este proyecto lo que debes hacer es abrir una nueva terminal, por si acaso asegurate de tener node.js instalado, ya que algunas veces da problemas al instalarlo con npm install. Una vez hecho esto introduce los siguientes comandos en la terminal:
+
+# `npm install`
+Con este comando VScode instalara todo lo que sea necesario para desplegar el proyecto; tanto dependencias como las extensiones que tiene.
+
+El siguiente comando que deberas usar es 
+# `npm start`
+Con este comando iniciaras la aplicacion en tu navegador
+
+<img src="pokedito.png" style="margin-bottom: 20px">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

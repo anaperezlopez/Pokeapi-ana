@@ -41,7 +41,6 @@ export default function App() {
   return (
     <div className="App">
       <SearchBox
-        className="SearchBox"
         placeholder="Buscar Pokemon"
         onSearchChange={(event) => setSearch(event.target.value)}
         clearList={() => {
@@ -51,9 +50,9 @@ export default function App() {
         searchValue={search}
       />
 
-      <div className="buttonClass">
+      <div className="App__buttonType">
         {types && types.map((type) => (
-          <button className={`button-type button-type-${type.name}`} type="button" key={type.name} onClick={() => getByType(type.url)}>{type.name}</button>))}
+          <button className={`App__buttonType--${type.name}`} type="button" key={type.name} onClick={() => getByType(type.url)}>{type.name}</button>))}
       </div>
 
       <PokemonList pokemons={filteredPokemons} />

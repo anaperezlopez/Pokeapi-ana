@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 import { getPokemonImage } from '../../services/api';
 import './PokemonCard.css';
 
-export default function PokemonCard({ name }) {
+export default function PokemonCard({ className, name }) {
   return (
     <Link to={`/detail/${name}`}>
-      <div className="PokemonCard">
+      <div className={className}>
         <h3>{name}</h3>
         <img src={getPokemonImage(name)} alt={name} />
       </div>
@@ -16,5 +16,6 @@ export default function PokemonCard({ name }) {
 }
 
 PokemonCard.propTypes = {
+  className: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
 };

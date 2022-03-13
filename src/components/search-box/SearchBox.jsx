@@ -9,15 +9,15 @@ export default function SearchBox({
   searchValue,
 }) {
   return (
-    <div>
+    <div className="SearchBox">
       <input
-        className="SearchBox"
+        className="SearchBox__field"
         type="search"
         placeholder={placeholder}
         onChange={onSearchChange}
         value={searchValue}
       />
-      <button className="clearButton" type="button" onClick={clearList}>Limpiar</button>
+      <button className="SearchBox__clearButton" type="button" onClick={clearList}>Limpiar</button>
     </div>
   );
 }

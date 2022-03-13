@@ -2,39 +2,13 @@
   text-align: center;
 }
 
-.App-logo, .Detail-logo {
-  height: 20vmin;
-  pointer-events: none;
+.App__buttonType{
+  margin-left: 95px;
+  margin-right: 95px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo, .Detail-logo {
-    animation: App-logo-spin infinite 5s linear;
-  }
-}
-
-.App-header, .Detail-header {
-  background-color: #282c34;
-  width: 100%;
-  min-height: 30vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.button-type {
+.App__buttonType button {
   margin: 10px 20px;
   padding: 10px;
   border-radius: 5px;
@@ -42,94 +16,88 @@
   color: white;
 }
 
-.button-type:hover{
+.App__buttonType button:hover{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   transition: transform 0.75s;
 }
 
-.buttonClass{
-  margin-left: 95px;
-  margin-right: 95px;
-  margin-bottom: 20px;
-}
-
-.button-type-normal {
+.App__buttonType--normal {
   background-color: darkgrey;
 }
 
-.button-type-fighting {
+.App__buttonType--fighting {
   background-color: brown;
 }
 
-.button-type-fire {
+.App__buttonType--fire {
   background-color: red;
 }
 
-.button-type-water {
+.App__buttonType--water {
   background-color: lightskyblue;
 }
 
-.button-type-flying {
+.App__buttonType--flying {
   background-color: rgb(0, 114, 114);
 }
 
-.button-type-poison {
+.App__buttonType--poison {
   background-color: purple;
 }
 
-.button-type-grass {
+.App__buttonType--grass {
   background-color: forestgreen;
 }
 
-.button-type-ground {
+.App__buttonType--ground {
   background-color: gold;
 }
 
-.button-type-rock {
+.App__buttonType--rock {
   background-color: gray;
 }
 
-.button-type-bug {
+.App__buttonType--bug {
   background-color: greenyellow;
 }
 
-.button-type-ghost {
+.App__buttonType--ghost {
   background-color: lightpink;
 }
 
-.button-type-steel {
+.App__buttonType--steel {
   background-color: plum;
 }
 
-.button-type-fairy {
+.App__buttonType--fairy {
   background-color: palevioletred;
 }
 
-.button-type-electric {
+.App__buttonType--electric {
   background-color: darkslategray;
 }
 
-.button-type-psychic {
+.App__buttonType--psychic {
   background-color: darkorange;
 }
 
-.button-type-ice {
+.App__buttonType--ice {
   background-color: darkcyan;
 }
 
-.button-type-dragon {
+.App__buttonType--dragon {
   background-color: darkmagenta;
 }
 
-.button-type-unknown {
+.App__buttonType--unknown {
   background-color: black;
 }
 
-.button-type-dark {
+.App__buttonType--dark {
   background-color: darkred;
 }
 
-.button-type-shadow {
+.App__buttonType--shadow {
   background-color: blue;
 }

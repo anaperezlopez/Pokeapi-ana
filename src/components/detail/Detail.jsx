@@ -36,7 +36,7 @@ export default function Detail() {
                 <tr><th colSpan="2"><h2>{name}</h2></th></tr>
               </thead>
               <tbody>
-                <tr><td rowSpan="4" className="fotopoke"><img src={getPokemonImage(name)} alt={name} /></td></tr>
+                <tr><td rowSpan="4" className="Detail__foto"><img src={getPokemonImage(name)} alt={name} /></td></tr>
                 <tr>
                   <td>
                     <b>Peso: </b>
